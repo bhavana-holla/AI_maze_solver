@@ -65,4 +65,23 @@ python maze_solver.py<br>
 #### Key Variables
 * start: Tuple indicating the starting position of the maze (usually (0, 0)).
 * goal: Tuple indicating the ending position of the maze (e.g., (4, 4)).
-* visited: Set that keeps track of visited positions to prevent cycles in the search.
+* visited: Set that keeps track of visited positions to prevent cycles in the search.<br>
+
+## Result: 
+
+For the following maze:<br><br>
+maze= [<br>
+    [0, 1, 0, 0, 0, 1, 0, 0, 1, 0],<br>
+    [0, 1, 1, 1, 0, 1, 0, 1, 1, 0],<br>
+    [0, 0, 0, 1, 0, 1, 0, 0, 0, 0],<br>
+    [1, 1, 0, 1, 1, 1, 1, 1, 1, 0],<br>
+    [0, 0, 0, 0, 0, 0, 0, 1, 0, 0],<br>
+    [0, 1, 1, 1, 1, 1, 0, 1, 1, 1],<br>
+    [0, 0, 0, 1, 0, 0, 0, 1, 0, 0],<br>
+    [1, 1, 0, 1, 1, 1, 0, 1, 0, 0],<br>
+    [0, 0, 0, 0, 0, 1, 0, 0, 0, 0],<br>
+    [0, 1, 1, 1, 0, 1, 1, 1, 1, 0]<br>
+]<br><br>
+The output is:<br>
+![image](https://github.com/user-attachments/assets/20e6b840-a2a1-434b-8b2f-d0b1762e2f29)
+
