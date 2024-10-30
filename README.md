@@ -30,9 +30,9 @@ maze = [<br>
 * It displays the maze as a grid where walls and paths are colored differently:
 - Walls: Black
 - Paths: White
-- Solution Path: Red
+- Solution Path: Red<br><br>
 
-*The solution path is drawn as a continuous line that connects the start and goal points. This gives a clear visual representation of the path taken.
+The solution path is drawn as a continuous line that connects the start and goal points. This gives a clear visual representation of the path taken.
 
 
 #### dfs(maze, start, goal):
