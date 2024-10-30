@@ -16,13 +16,13 @@ The maze is represented as a 2D list, where:
 - 1 indicates a wall.
 
   For example:<br>
-maze = [
-    [0, 1, 0, 0, 0],
-    [0, 1, 0, 1, 0],
-    [0, 0, 0, 1, 0],
-    [1, 1, 0, 0, 0],
-    [0, 0, 0, 1, 0]
-]
+maze = [<br>
+    [0, 1, 0, 0, 0],<br>
+    [0, 1, 0, 1, 0],<br>
+    [0, 0, 0, 1, 0],<br>
+    [1, 1, 0, 0, 0],<br>
+    [0, 0, 0, 1, 0]<br>
+]<br>
 
 
 #### visualize_maze(maze, path):
